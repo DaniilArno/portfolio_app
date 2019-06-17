@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none !important;
+  font-size: 16px;
+}
+.link:hover {
+  color: darkorange;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  color: darkorange;
+}

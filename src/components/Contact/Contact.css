@@ -1,0 +1,66 @@
+.bgContact {
+  background: ivory;
+  padding: 40px 0 100px 0;
+}
+
+.bgContact li:first-child {
+  font-size: 1.3rem;
+}
+
+   /* Extra small devices (portrait phones, less than 576px) */
+   @media (min-width: 360px) and (max-width: 575.98px) {
+    .aboutTitle_image {
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+    .aboutTitle_info {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .aboutRightText  ul li{
+      text-align: center;
+    }
+    .btnSocials {
+      margin-left: 0px;
+      position: absolute;
+      left: 50%;
+      margin-left: -70px;
+    }
+  }
+
+/* less than 360px) */
+@media (max-width: 359.98px) {
+  .bgContact li:first-child {
+    font-size: 0.80rem;
+  }
+  .contactLeft li,.contactRight li {
+    font-size: 0.80rem;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 360px) and (max-width: 575.98px) {
+  .bgContact li:first-child {
+    font-size: 1rem;
+  }
+  .contactLeft li,.contactRight li {
+    font-size: 1rem;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bgContact li:first-child {
+    font-size: 1.2rem;
+  }
+  .contactLeft li,.contactRight li {
+    font-size: 1.2rem;
+  }
+}
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  .bgContact li:first-child {
+    font-size: 1rem;
+  }
+  .contactLeft li,.contactRight li {
+    font-size: 1rem;
+  }
+}

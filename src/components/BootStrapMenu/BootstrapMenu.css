@@ -1,0 +1,25 @@
+.LayoutImage {
+  background: url(../../img/header.jpg) center / cover;
+  height: 100vh;
+}
+.mdl-layout__content {
+  /* overflow-y: hidden; */
+}
+.mdl-navigation__link{
+  font-size: 24px !important;
+}
+.material-icons {
+  font-size: 60px;
+}
+.mdl-layout__drawer-button {
+  width: 60px;
+  height: 60px;
+}
+.mdl-layout__title, .mdl-layout-title {
+  font-size: 27px;
+  margin-top: 10px;
+}
+.material-icons:hover {
+  color: #ff8c00;
+  font-weight: 600;
+}

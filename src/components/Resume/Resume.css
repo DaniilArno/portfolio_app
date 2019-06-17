@@ -1,0 +1,71 @@
+.bgResume {
+  background: ivory;
+}
+.resumeLeft ul {
+  display: flex;
+  flex-direction: column;
+}
+.resumeLeft li {
+  text-align: right;
+}
+li i {
+  color: #ff8c00;
+}
+li {
+  margin: 14px 0;
+}
+li:first-child {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.resumeRight li:nth-child(2),.resumeLeft li:nth-child(2) {
+  margin-bottom: 40px;
+}
+li span:nth-child(2n+1) {
+  background: #ff8c00;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resumeRight li:nth-child(2n+1),.resumeLeft li:nth-child(2n+1) {
+  margin-bottom: 20px;
+}
+.resumeRight li:nth-child(2n),.resumeLeft li:nth-child(2n) {
+  margin-bottom: 40px;
+}
+.resumeCenter {
+  margin-top: 100px;
+}
+.resumeCenter li {
+  text-align: center;
+}
+/* less than 360px) */
+@media (max-width: 359.98px) {
+  .resumeRight_small li, .resumeLeft_small li {
+    text-align: center;
+  }
+  .resumeRight li,.resumeLeft li {
+    font-size: 1rem;
+  }
+  li:first-child {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 575.98px) {
+  .resumeRight_small li, .resumeLeft_small li {
+    text-align: center;
+  }
+  .resumeRight li,.resumeLeft li {
+    font-size: 1rem;
+  }
+  li:first-child {
+    font-size: 2rem;
+  }
+} 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .resumeRight li,.resumeLeft li {
+    font-size: 1.2rem;
+  }
+}

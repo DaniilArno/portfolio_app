@@ -1,0 +1,21 @@
+.PagestyleBlock {
+  padding: 40px 0 40px 0;
+}
+.PageSkillsTitle {
+  font-size: 4rem;
+}
+.PageSkillsText {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.PagestyleBlock::after {
+  background: #fff;
+  height: 1px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  margin-top: 10px;
+  background: gray;
+  margin-bottom: 20px;
+}
